@@ -3,6 +3,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    background-color: rgb(255, 239, 223);
 }
 
 #home-content {
@@ -11,14 +12,15 @@ body {
 }
 
 #home-content h1 {
-    color: rgb(30, 255, 0);
+    color: rgb(65, 65, 65);
     padding-left: 25%;
     letter-spacing: 1px;
+    
 
 }
 
 header {
-    background-color: #9900ff;
+    background-color: #76cdff;
     padding: 20px;
     border-radius: 15px;
     
@@ -43,9 +45,9 @@ footer {
     text-align: center;
     clear: both;
     border-radius: 15px;
-    background-color: #9900ff;
+    background-color: #76cdff;
     padding: 25px;
-    color: rgb(255, 255, 255);
+    color: rgb(20, 20, 20);
 }
 
 main ul li {
@@ -53,11 +55,11 @@ main ul li {
 }
 
 footer a {
-    color: rgb(255, 255, 255);
+    color: rgb(20, 20, 20);
 }
 
 #updated {
-    color: rgb(30, 255, 0);
+    color: rgb(65, 65, 65);
     font-size: .9em;
 }
 
