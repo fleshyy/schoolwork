@@ -1,21 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+*{
+    max-width: 100%;
+}
 body {
+    max-width: 1680px;
+    margin: 0 auto;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    background-color: rgb(255, 239, 223);
+    background-color:rgb(224 224 224);
 }
 
-#home-content {
-    max-width: 960px;
-    margin: 0 auto;
-}
+
 
 #home-content h1 {
     color: rgb(65, 65, 65);
     padding-left: 25%;
     letter-spacing: 1px;
-    
+    max-width: 1000px;
+    margin: 0 auto;
 
 }
 
@@ -63,3 +65,402 @@ footer a {
     font-size: .9em;
 }
 
+
+/*designprinciples*/
+/*SS code*/
+
+.DP-Header{
+    background-color: #fbe9e9;
+    border-radius: 0px;
+    border-radius:0 0 15px 15px;
+    padding:10px;
+    
+   
+}
+.WSCD{
+    margin-top: 80px;
+    background-color: #fbe9e9;
+    border-radius: 15px;
+    padding:10px;
+}
+.WSCD-H2{
+    text-align:center;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width:100%;
+}
+.squarespace {
+    text-align: center;
+    font-size: larger;
+}
+.image-container{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-gap: 1em;
+    grid-template-rows: 200px 200px 200px 200px auto;
+}
+.ss1{
+    grid-column:1;
+    grid-row:1;
+    justify-self: center;
+}
+.ss2{
+    grid-column:2;
+    grid-row:1;
+    justify-self: center;
+}
+.ss3{
+    grid-column:3;
+    grid-row:1;
+    justify-self: center;
+    
+}
+.squarespace-p{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/*Mixd code*/
+.visual-hierarchy{
+    margin-top: 80px;
+    background-color: #fbe9e9;
+    border-radius: 15px;
+    padding:10px;
+}
+.VH-H2{
+    text-align:center;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width:100%;
+}
+
+
+.MD1{
+    grid-column:1;
+    grid-row:1;
+    justify-self: center;
+}
+.MD2{
+    grid-column:2;
+    grid-row:1;
+    justify-self: center;
+}
+.MD3{
+    grid-column:3;
+    grid-row:1;
+    justify-self: center;
+    
+}
+.MD-p{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/*Lamborghini*/
+.PARC-contrast{
+    margin-top: 80px;
+    background-color: #fbe9e9;
+    border-radius: 15px;
+    padding:10px;
+}
+.PARC-c-H2{
+    text-align:center;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width:100%;
+}
+
+
+.L1{
+    grid-column:1;
+    grid-row:1;
+    justify-self: center;
+}
+.L2{
+    grid-column:2;
+    grid-row:1;
+    justify-self: center;
+}
+.L3{
+    grid-column:3;
+    grid-row:1;
+    justify-self: center;
+    
+}
+.L-p{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+@media only screen and (max-width: 600px) {
+    .body{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .html{
+        width: 100%;
+    }
+    .DP-Header{
+        background-color: #fbe9e9;
+        border-radius: 0px;
+        border-radius:0 0 15px 15px;
+        padding:10px;
+        
+       
+    }
+    .WSCD{
+        margin-top: 40px;
+        background-color: #fbe9e9;
+        border-radius: 15px;
+        padding:10px;
+    }
+    .WSCD-H2{
+        text-align:center;
+        
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width:100%;
+    }
+    .squarespace {
+        text-align: center;
+        font-size: larger;
+    }
+    .image-container{
+        display: grid;
+        grid-template-columns:  1fr;
+        grid-gap: 0.75em;
+        grid-template-rows: auto;
+    }
+    .ss1{
+        grid-column:1;
+        grid-row:1;
+        justify-self: center;
+    }
+    .ss2{
+        grid-column:1;
+        grid-row:2;
+        justify-self: center;
+    }
+    .ss3{
+        grid-column:1;
+        grid-row:3;
+        justify-self: center;
+        
+    }
+    .squarespace-p{
+        text-align: center;
+        font-size: 1.5em;
+    }
+    
+    /*Mixd code*/
+    .visual-hierarchy{
+        margin-top: 40px;
+        background-color: #fbe9e9;
+        border-radius: 15px;
+        padding:10px;
+    }
+    .VH-H2{
+        text-align:center;
+        
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width:100%;
+    }
+    
+    
+    .MD1{
+        grid-column:1;
+        grid-row:1;
+        justify-self: center;
+    }
+    .MD2{
+        grid-column:1;
+        grid-row:2;
+        justify-self: center;
+    }
+    .MD3{
+        grid-column:1;
+        grid-row:3;
+        justify-self: center;
+        
+    }
+    .MD-p{
+        text-align: center;
+        font-size: 1.5em;
+    }
+    
+    /*Lamborghini*/
+    .PARC-contrast{
+        margin-top: 80px;
+        background-color: #fbe9e9;
+        border-radius: 15px;
+        padding:10px;
+    }
+    .PARC-c-H2{
+        text-align:center;
+        
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width:100%;
+    }
+    
+    
+    .L1{
+        grid-column:1;
+        grid-row:1;
+        justify-self: center;
+    }
+    .L2{
+        grid-column:1;
+        grid-row:2;
+        justify-self: center;
+    }
+    .L3{
+        grid-column:1;
+        grid-row:3;
+        justify-self: center;
+        
+    }
+    .L-p{
+        text-align: center;
+        font-size: 1.5em;
+    }
+  }
+
+  @media only screen and (min-width: 600px) and (max-width:1300px) {
+    .body{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .html{
+        width: 100%;
+    }
+    .DP-Header{
+        background-color: #fbe9e9;
+        border-radius: 0px;
+        border-radius:0 0 15px 15px;
+        padding:10px;
+        
+       
+    }
+    .WSCD{
+        margin-top: 30px;
+        background-color: #fbe9e9;
+        border-radius: 15px;
+        padding:10px;
+    }
+    .WSCD-H2{
+        text-align:center;
+        
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width:100%;
+    }
+    .squarespace {
+        text-align: center;
+        font-size: larger;
+    }
+    .image-container{
+        display: grid;
+        grid-template-columns:  1fr 1fr 1fr;
+        grid-gap: 0.5em;
+        grid-template-rows: auto;
+    }
+    .ss1{
+        grid-column:1;
+        grid-row:1;
+        justify-self: center;
+    }
+    .ss2{
+        grid-column:2;
+        grid-row:1;
+        justify-self: center;
+    }
+    .ss3{
+        grid-column:3;
+        grid-row:1;
+        justify-self: center;
+        
+    }
+    .squarespace-p{
+        text-align: center;
+        font-size: 1em;
+    }
+    
+    /*Mixd code*/
+    .visual-hierarchy{
+        margin-top: 20px;
+        background-color: #fbe9e9;
+        border-radius: 15px;
+        padding:10px;
+    }
+    .VH-H2{
+        text-align:center;
+        
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width:100%;
+    }
+    
+    
+    .MD1{
+        grid-column:1;
+        grid-row:2;
+        justify-self: center;
+    }
+    .MD2{
+        grid-column:2;
+        grid-row:2;
+        justify-self: center;
+    }
+    .MD3{
+        grid-column:3;
+        grid-row:2;
+        justify-self: center;
+        
+    }
+    .MD-p{
+        text-align: center;
+        font-size: 1.5em;
+    }
+    
+    /*Lamborghini*/
+    .PARC-contrast{
+        margin-top: 40px;
+        background-color: #fbe9e9;
+        border-radius: 15px;
+        padding:10px;
+    }
+    .PARC-c-H2{
+        text-align:center;
+        
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width:100%;
+    }
+    
+    
+    .L1{
+        grid-column:1;
+        grid-row:3;
+        justify-self: center;
+    }
+    .L2{
+        grid-column:2;
+        grid-row:3;
+        justify-self: center;
+    }
+    .L3{
+        grid-column:3;
+        grid-row:3;
+        justify-self: center;
+        
+    }
+    .L-p{
+        text-align: center;
+        font-size: 1.5em;
+    }
+  }
