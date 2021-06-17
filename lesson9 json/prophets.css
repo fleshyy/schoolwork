@@ -1,3 +1,7 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+}
 body{
     text-align: center;
     background-color: grey;
@@ -8,10 +12,12 @@ h1{
     margin:0 auto;
     border-radius: 10px;
     padding:10px 0;
+    color: rgb(255, 82, 82);
 }
 h2{
     background-color: rgb(252, 210, 159);
     padding:10px 0;
+    color: rgb(255, 82, 82);
 }
 section{
     background-color: bisque;
