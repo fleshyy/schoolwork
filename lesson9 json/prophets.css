@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    background-color: grey;
+}
+h1{
+    background-color: rgb(252, 210, 159);
+    width: 95%;
+    margin:0 auto;
+    border-radius: 10px;
+    padding:10px 0;
+}
+h2{
+    background-color: rgb(252, 210, 159);
+    padding:10px 0;
+}
+section{
+    background-color: bisque;
+    padding:10px 0;
+    margin:10px auto;
+    width: 95%;
+    border-radius: 10px;
+}
+section img{
+    border-radius: 10px;
+    max-width: 250px;
+    max-height: 305px;
+}
+
+footer{
+    width: 100%;
+    background-color:bisque ;
+    padding:10px 0;
+}
