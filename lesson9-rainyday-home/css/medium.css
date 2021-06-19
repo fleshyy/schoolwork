@@ -1,0 +1,118 @@
+@media only screen and (min-width:45em) {
+    header {
+        padding: 0.5rem 10%;
+        display: flex;
+        justify-content: space-between;
+    }
+    header img {
+        display: inline-block;
+        max-width: 100px;
+    }
+    .contentbox {
+        max-width: 80%;
+        margin: 0.3rem auto;
+    }
+    .bannerbox {
+        text-align: center;
+        justify-content: left;
+        max-width: 80%;
+        margin: 0 auto;
+        height: 45vh;
+    }
+    .weathersummary {
+        margin-left: 10%;
+    }
+    .fdf {
+        margin: 0 auto;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .Days {
+        border-right: 2px solid #c001ff;
+        width: 20%;
+        border-top: none;
+    }
+    .Days:first-child {
+        border-left: 2px solid #c001ff;
+    }
+    .article {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .article-content {
+        display: flex;
+        align-items: flex-start;
+        padding-top: 2%;
+    }
+    .article-content p {
+        width: 60%;
+    }
+    .article-content img {
+        width: 40%;
+    }
+    .contactinfo {
+        border-top: 2px solid #c001ff;
+        padding-top: 2%;
+        margin: 0 auto;
+        width: 80%;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .contactcontent {
+        width: 40%;
+    }
+    .contactcontent-img {
+        width: 60%;
+    }
+    label {
+        display: inline-block;
+        text-align: left;
+        width: 250px;
+    }
+    input, textarea {
+        width: 450px;
+    }
+    .radiogroups label, .radiogroups input {
+        width: auto;
+    }
+    .radiogroups input {
+        margin: 0 10px;
+    }
+    .towns section {
+        width: 80%;
+        grid-template-columns: 1fr 1fr;
+        margin: 5px auto;
+    }
+    .towns section:nth-child(0) img {
+        grid-column: 1;
+    }
+    .towns section:nth-child(1) img {
+        grid-column: 1;
+    }
+    .towns section:nth-child(2) img {
+        grid-column: 2;
+    }
+    .towns section:nth-child(odd) .town-text {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .towns section img {
+        margin: auto 0;
+        max-width: 300px;
+        align-self: end;
+    }
+    .news-event {
+        margin: 0;
+    }
+    .news-event:nth-child(even) {
+        border-top: none;
+        border-left: solid 2px #c001ff;
+    }
+    .news-grid {
+        border: solid 2px #c001ff;
+        max-width: 80%;
+        margin: 0 auto;
+        grid-template-columns: 1fr 1fr;
+    }
+}
